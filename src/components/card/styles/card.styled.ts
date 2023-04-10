@@ -1,4 +1,4 @@
-import { Box } from "elements";
+import ClipBox from "components/clip-box";
 import FBox from "elements/fbox";
 import styled from "styled-components";
 import { BasicVar, DefaultColor, FontSize } from "styles/variables";
@@ -6,6 +6,7 @@ import { BasicVar, DefaultColor, FontSize } from "styles/variables";
 export const CarItemWrapper = styled(FBox)`
     flex-direction: column;
     padding: 0 0.5rem;
+    height: 100%;
     margin-bottom: 1rem;
 `
 
@@ -18,10 +19,9 @@ export const CarItemContainer = styled.a<{active: boolean}>`
     border: 1px solid ${props => props.active ? DefaultColor.primary.label : 'transparent'};
 `
 
-export const Number = styled(Box)<{isSm: boolean, active: boolean}>`
+export const Number = styled(ClipBox)<{isSm: boolean, active: boolean}>`
     position: absolute;
     top: 0;
-    clip-path: polygon(0 0, 100% 0, 100% 89%, 0% 100%);
     left: 0;
     padding: 0.5rem 1rem;
     background: ${props => props.active ? DefaultColor.primary.label : BasicVar.bg.label};

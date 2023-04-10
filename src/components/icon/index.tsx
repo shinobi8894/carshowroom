@@ -35,6 +35,11 @@ const icons: any = {
         <svg viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M9 5L0 10L4.54262e-07 0L9 5Z" fill="currentColor" />
         </svg>
+    ),
+    'Check': (
+        <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.34146 5.5072L0 7.9049L4.82927 13L12 5.28242V0L4.82927 8.87896L2.34146 5.5072Z" fill="currentColor" />
+        </svg>
     )
 }
 

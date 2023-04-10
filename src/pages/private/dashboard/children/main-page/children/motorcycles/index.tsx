@@ -91,7 +91,9 @@ const MotorCycles = () => {
                     {CARSMOCKDATA.map((item: CarInfo, key: number) => (
                         <Box minW={'320px'}>
                             <Card isSm item={item} order={key} active={key === activeCar} onClick={() => setActiveCar(key)}>
-                                <Price item={item} isSm />
+                                <Box position={'absolute'} top={'0'} right={'0'}>
+                                    <Price item={item} isSm />
+                                </Box>
                                 <FBox flex={1} vAlign={'center'} >
                                     <Img src={`/cars/${item.img}`} width={'100%'} />
                                 </FBox>

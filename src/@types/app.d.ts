@@ -14,4 +14,5 @@ interface CarInfo {
     acceleration: number
     braking: number
     control: number
+    model: number
 }

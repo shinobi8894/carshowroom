@@ -4,9 +4,6 @@ import styled from "styled-components";
 import { BasicVar, DefaultColor } from "styles/variables";
 
 export const PriceWrapper = styled(Box)<{isSale: boolean}>`
-    position: absolute;
-    top: 0;
-    right: 0;
     padding: 0.2rem 1rem;
     background: ${props => props.isSale ? BasicVar.bgBadge.label : DefaultColor.primary.label};
 `

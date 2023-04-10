@@ -69,6 +69,7 @@ const GlobalStyle = createGlobalStyle`
 		line-height: inherit;
 		text-transform: inherit;
 		color: inherit;
+		transition: all ease-in-out .2s;
 	}
 
 	#root {
@@ -92,7 +93,7 @@ const GlobalStyle = createGlobalStyle`
 	}
 
 	a, button, input[type=button], input[type=submit] {
-		cursor: pointer;;
+		cursor: pointer;
 	}
 
 	&::-webkit-scrollbar {
@@ -106,7 +107,7 @@ const GlobalStyle = createGlobalStyle`
 	}
 
 	&::-webkit-scrollbar-thumb {
-		background: ${BasicVar.color3.label};
+		background: #999;
 		border-radius: 5px;
 	}
 

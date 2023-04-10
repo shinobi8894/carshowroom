@@ -1,7 +1,7 @@
 import React from "react";
 import { Box } from "elements";
 import { Link, Outlet } from "react-router-dom";
-import { NavWrapper, NavItemWrapper, Badge } from "./styles/mainpage.styled";
+import { NavWrapper, NavItemWrapper, Badge, BadgeWrapper } from "./styles/mainpage.styled";
 import FBox from "elements/fbox";
 import Icon from "components/icon";
 
@@ -34,7 +34,9 @@ const NavItem = ({ item, activeKey, setActiveKey }: NavItemProps) => {
 				<FBox hAlign={'space-between'}>
 					{item.label}
 					<FBox vAlign={'center'} g={'1rem'}>
-						<Badge>{item.badge}</Badge>
+						<BadgeWrapper>
+							<Badge>{item.badge}</Badge>
+						</BadgeWrapper>
 						<Icon icon="ArrowRight" width="10px" height="10px" />
 					</FBox>
 				</FBox>

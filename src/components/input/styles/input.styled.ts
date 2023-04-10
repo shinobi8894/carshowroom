@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { BasicVar, DefaultColor, FontSize } from "styles/variables";
 
-export const InputWrapper = styled.label`
+export const InputWrapper = styled.label<{disabled: boolean}>`
     position: relative;
     display: flex;
     align-items: center;

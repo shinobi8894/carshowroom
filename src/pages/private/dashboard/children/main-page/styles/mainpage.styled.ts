@@ -1,3 +1,4 @@
+import { Box } from "elements";
 import Text from "elements/text";
 import styled from "styled-components";
 import { BasicVar, DefaultColor, FontSize } from "styles/variables";
@@ -26,12 +27,28 @@ export const NavItemWrapper = styled.li<{active:boolean}>`
     }
 `
 
+export const BadgeWrapper = styled(Box)`
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    clip-path: polygon(0 0, 75% 0%, 100% 29%, 100% 100%, 25% 100%, 0 72%);
+    background: #2D3342;
+    text-align: center;
+    z-index: 1;
+`
+
 export const Badge = styled(Text)`
     display: inline-block;
     padding: 0 0.5rem;
     min-width: 40px;
-    border: 3px solid ${BasicVar.bgOpacity.label};
-    background: rgba(183, 212, 236, 0.35);
+    clip-path: polygon(0 0, 75% 0%, 100% 29%, 100% 100%, 25% 100%, 0 72%);
+    background: #5B6977;
     font-size: ${FontSize.fSize5.label};
     text-align: center;
+    z-index: 1;
+`
+
+export const Color = styled(Box)`
 `

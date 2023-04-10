@@ -4,12 +4,14 @@ import Text from "elements/text";
 import { BasicVar } from "styles/variables";
 
 interface InputType {
-    prefix?: string
+    value?: string | number
+    prefix?: string,
+    disabled?: boolean
 }
 
-const Input = ({ prefix, ...rest }: InputType) => {
+const Input = ({ prefix, disabled, ...rest }: InputType) => {
     return (
-        <InputWrapper>
+        <InputWrapper disabled={disabled || false}>
             {prefix && (
                 <Text color={BasicVar.color2.label} mr={'0.5rem'}>{prefix}</Text>
             )}
