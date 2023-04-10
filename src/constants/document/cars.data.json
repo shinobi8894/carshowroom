@@ -1,0 +1,11 @@
+[
+    { "name": "LADA 2106", "img": "1.png", "speed": 232, "acceleration": 124, "braking": 232, "control": 3.7, "price": 24000, "sale": 20000 },
+    { "name": "LADA 2106", "img": "2.png", "speed": 232, "acceleration": 124, "braking": 232, "control": 3.7, "price": 24000 },
+    { "name": "LADA 2106", "img": "3.png", "speed": 232, "acceleration": 124, "braking": 232, "control": 3.7, "price": 24000 },
+    { "name": "LADA 2106", "img": "4.png", "speed": 232, "acceleration": 124, "braking": 232, "control": 3.7, "price": 24000, "sale": 20000 },
+    { "name": "LADA 2106", "img": "5.png", "speed": 232, "acceleration": 124, "braking": 232, "control": 3.7, "price": 24000 },
+    { "name": "LADA 2106", "img": "6.png", "speed": 232, "acceleration": 124, "braking": 232, "control": 3.7, "price": 24000, "sale": 20000 },
+    { "name": "LADA 2106", "img": "1.png", "speed": 232, "acceleration": 124, "braking": 232, "control": 3.7, "price": 24000, "sale": 20000 },
+    { "name": "LADA 2106", "img": "2.png", "speed": 232, "acceleration": 124, "braking": 232, "control": 3.7, "price": 24000 }
+]
+    
